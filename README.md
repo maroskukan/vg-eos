@@ -1,7 +1,7 @@
 # Vagrant vEOS
 Vagrant Arista vEOS 4 node demo environment
 
-![Topology](../master/img/topology.png)
+![Topology](../master/img/topology.PNG)
 
 ## Requirements
 
