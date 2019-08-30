@@ -6,7 +6,7 @@ default_box = 'vEOS-lab-4.20.1F'
 Vagrant.configure(2) do |config|
   config.vm.define 'vEOS1' do |vEOS1|
     vEOS1.vm.box = default_box
-    
+
     # Interface definition
     vEOS1.vm.network 'private_network', ip: '169.254.1.11', auto_config: false
     vEOS1.vm.network 'private_network', ip: '169.254.1.11', auto_config: false

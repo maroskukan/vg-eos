@@ -6,9 +6,9 @@ Vagrant demo environment composed of 4 Arista vEOS switches.
 
 ## Requirements
 
-*VirtualBox
-*Vagrant
-*Arista vEOS in Vagrant "box" format e.g. vEOS-lab-4.20.1F-virtualbox.box
+* VirtualBox
+* Vagrant
+* Arista vEOS in Vagrant "box" format e.g. vEOS-lab-4.20.1F-virtualbox.box
 
 ## Usage
 
@@ -18,6 +18,7 @@ vagrant box add --name vEOS-lab-4.20.1F ~/Downloads/vEOS-lab-4.20.1F-virtualbox.
 vagrant box list
 vEOS-lab-4.20.1F (virtualbox, 0)
 ```
+
 Step 2. Download or clone this repo and start vagrant up. The
 ```
 cd vg-eos
