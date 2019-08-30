@@ -1,26 +1,28 @@
 # Vagrant vEOS
-Vagrant Arista vEOS 4 node demo environment
+
+Vagrant demo environment composed of 4 Arista vEOS switches.
 
 ![Topology](../master/img/topology.PNG)
 
 ## Requirements
 
-VirtualBox
-Vagrant
-Arista vEOS in Vagrant "box" format e.g. vEOS-lab-4.20.1F-virtualbox.box
+*VirtualBox
+*Vagrant
+*Arista vEOS in Vagrant "box" format e.g. vEOS-lab-4.20.1F-virtualbox.box
 
-## Build
+## Usage
 
-Step 1. Add the box file our vagrant inventory
-
+Step 1. Download the arista vEOS image and it our vagrant inventory.
+```
 vagrant box add --name vEOS-lab-4.20.1F ~/Downloads/vEOS-lab-4.20.1F-virtualbox.box
 vagrant box list
-
-Step 2. Download or clone this repo and start vagrant up
-
+vEOS-lab-4.20.1F (virtualbox, 0)
+```
+Step 2. Download or clone this repo and start vagrant up. The
+```
 cd vg-eos
 vagrant up
-
+```
 ## Operation
 
 Once build successfully completes. The CLI and API access is available.
